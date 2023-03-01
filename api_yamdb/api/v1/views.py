@@ -4,7 +4,7 @@ from rest_framework import filters, viewsets, status
 from rest_framework.decorators import api_view, action, permission_classes
 from rest_framework.response import Response
 from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework import permissions, status, viewsets
+from rest_framework import permissions
 from django.db.models import Avg
 
 from .serializers import get_tokens_for_user, UserRegistrationSerializer
